@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clan / Kikundi Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo"><i class="fa-solid => fa-people-group"></i> Clan Portal</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#public-info">About</a></li>
+            
+            <li><a href="#stories">Clan Stories</a></li>
+        </ul>
+       
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Clan Community (Kikundi)</h1>
+            <p>Connecting members, preserving clan history, managing contributions, and supporting each other.</p>
+            
+        </div>
+    </header>
+
+    <!-- Public Information Section -->
+    <section id="public-info" class="section">
+        <h2><i class="fa-solid fa-compass"></i> Public Clan Information</h2>
+        <div class="grid grid-3">
+            <div class="card">
+                <i class="fa-solid fa-bullseye card-icon"></i>
+                <h3>Clan Vision</h3>
+                <p>To foster unity, continuous economic support, preservation of heritage, and mutual growth for all clan members across generations.</p>
+            </div>
+           
+        </div>
+    </section>
+
+
+           
+
+    <!-- Clan Stories (PDF Files) Section -->
+    <section id="stories" class="section bg-light">
+        <h2><i class="fa-solid fa-book-open"></i> Clan Stories & Historical Documents (PDFs)</h2>
+        <p>Members can read and host their stories or historical archives in PDF format.</p>
+        
+        
+        <div class="grid grid-3" id="pdfList">
+            <div class="card pdf-card">
+                <i class="fa-solid fa-file-pdf pdf-icon"></i>
+                <h3>History of the Clan - Vol 1</h3>
+                <p></p>
+                <button class="btn btn-sm btn-primary" onclick="viewPDF()"><i class="fa-solid fa-eye"></i> View PDF</button>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2026 Clan / Kikundi Portal. Built for community welfare and lineage preservation.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
