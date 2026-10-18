@@ -66,5 +66,5 @@ function handlePDFUpload(event) {
 
 // View PDF Simulation
 function viewPDF() {
-    window.open("wasifu.pdf", "_blank");
+    window.open("historia.pdf", "_blank");
 }
